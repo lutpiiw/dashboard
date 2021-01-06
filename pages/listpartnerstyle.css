@@ -47,36 +47,6 @@ main {
     box-sizing: border-box;
 }
 
-.card-deck {
-    padding: 20px;
-}
-
-.card i {
-    text-align: center;
-    margin-top: 15px
-}
-
-.card-body {
-    text-align: center;
-}
-
-.card-body h1 {
-    font-size: 100px;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-
-.card-body h1:hover {
-    font-size: 125px;
-}
-
-.card-body h6 {
-    font-size: 20px;
-}
-
 footer {
     background-color: white;
 }

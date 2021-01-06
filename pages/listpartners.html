@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Font Awesome -->
-    <link href="assets/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="../assets/fontawesome/css/all.min.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="listpartnerstyle.css">
 
     <title>Dashboard</title>
   </head>
@@ -20,8 +20,8 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
-              <img src="img/logo.png" width="250" alt="" loading="lazy">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../img/logo.png" width="250" alt="" loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
         <aside>
             <ul class="nav flex-column" id="mainMenu">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html"><span><i class="fas fa-home"></i></span> Home</a>
+                  <a class="nav-link" href="../index.html"><span><i class="fas fa-home"></i></span> Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" data-toggle="collapse" href="#partnerSubMenu" aria-expanded="false" aria-controls="partnerSubMenu"><i class="fas fa-user-friends"></i> Partners</a>
@@ -60,22 +60,36 @@
         </aside>
 
         <main>
-            <div class="card-deck">
-                <div class="card">
-                  <i class="fas fa-user-friends fa-7x"></i>
-                  <div class="card-body">
-                    <h1 class="card-number">20</h1>
-                    <h6 class="card-desc">Active Partners</h6>
-                  </div>
-                </div>
-                <div class="card">
-                  <i class="fas fa-cogs fa-7x"></i>
-                  <div class="card-body">
-                    <h1 class="card-number">50</h1>
-                    <h6 class="card-desc">APIs</h6>
-                  </div>
-                </div>
-              </div>
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">API ID</th>
+                    <th scope="col">API Name</th>
+                    <th scope="col">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>API_1</td>
+                    <td>Get Subscriber Status</td>
+                    <td>Get status of subscriber</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>API_2</td>
+                    <td>Get Tenure</td>
+                    <td>Get tenure of subscriber</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>API-3</td>
+                    <td>Get Top Up Frequency</td>
+                    <td>Get subscriber top up frequency</td>
+                  </tr>
+                </tbody>
+              </table>
         </main>
     </div>
 
@@ -92,7 +106,7 @@
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="assets/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
