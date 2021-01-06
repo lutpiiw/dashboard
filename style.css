@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height:100%; 
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  html {
+    height: -webkit-fill-available;
+  }
+
+.content {
+    display: flex;
+    height: 100vh;
+}
+
+aside {
+    background-color: lightgray;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+aside .nav {
+    margin-top: 10px;
+}
+
+aside .nav-item {
+    padding-left: 20px;
+}
+
+aside .nav-link {
+    color: gray;
+    font-size: 20px;
+}
+
+main {
+    background-color: whitesmoke;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-deck {
+    padding: 20px;
+}
+
+.card i {
+    text-align: center;
+    margin-top: 15px
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body h1 {
+    font-size: 100px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.card-body h1:hover {
+    font-size: 125px;
+}
+
+.card-body h6 {
+    font-size: 20px;
+}
+
+footer {
+    background-color: white;
+}
+
+footer h6 {
+    padding-left: 30px;
+}
